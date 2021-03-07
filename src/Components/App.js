@@ -6,6 +6,8 @@ import Container from 'react-bootstrap/Container'
 import Tabs from 'react-bootstrap/Tabs'
 import Dashboard from "./Dashboard"
 
+var mongoUtil = require( 'mongoUtil' );
+
 const App = () => {
   return (
     <React.Fragment>
